@@ -20,6 +20,6 @@ Works perfectly on desktop and mobile.
 
 ## How to Play
 Click on the deployed GitHub Pages link to play the game:  
-[Play Unbeatable TIC-TAC-TOE](https://yourusername.github.io/Unbeatable_TIC-TAC-TOE/)
+[Play Unbeatable TIC-TAC-TOE](https://nilesh-194.github.io/Unbeatable_TIC-TAC-TOE./)
 
 
