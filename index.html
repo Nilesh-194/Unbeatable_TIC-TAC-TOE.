@@ -12,7 +12,7 @@
   <style>
     html, body { height: 100%; }
     body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-    /* Smooth hover for cells */
+  
     .pressable:active { transform: scale(0.97); }
   </style>
 </head>
@@ -43,9 +43,9 @@
         Your turn (X)
       </div>
 
-      <!-- Board -->
+    
       <div id="board" class="grid grid-cols-3 gap-2 sm:gap-3 select-none">
-        <!-- 9 cells -->
+
         <button class="cell pressable aspect-square rounded-xl bg-slate-900/60 ring-1 ring-white/10 text-4xl sm:text-5xl font-bold hover:bg-slate-800 transition" data-index="0" aria-label="Cell 1"></button>
         <button class="cell pressable aspect-square rounded-xl bg-slate-900/60 ring-1 ring-white/10 text-4xl sm:text-5xl font-bold hover:bg-slate-800 transition" data-index="1" aria-label="Cell 2"></button>
         <button class="cell pressable aspect-square rounded-xl bg-slate-900/60 ring-1 ring-white/10 text-4xl sm:text-5xl font-bold hover:bg-slate-800 transition" data-index="2" aria-label="Cell 3"></button>
