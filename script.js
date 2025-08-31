@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const computerScoreEl = document.getElementById("computer-score");
   const tiesEl = document.getElementById("ties");
 
-  // Persistent scores
+
   const SCORE_KEY = "ttt:scores:v1";
   const THEME_KEY = "ttt:theme";
   let scores = loadScores();
@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     [0,4,8],[2,4,6],
   ];
 
-  // Bind events (click + touch are both handled by click on <button>)
   cells.forEach((cell, index) => {
     cell.addEventListener("click", () => onPlayerMove(index));
     cell.addEventListener("keydown", (e) => {
